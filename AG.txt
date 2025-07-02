@@ -1,0 +1,37 @@
+El algoritmo genetico se debe de aplicar para cada usuario o cada inividuo
+
+Un usuario se le debe de sacar el promedio de la habilidad, base a eso se le tiene que dar los ejercicios.
+
+Se tiene que devoler una tabla en donde mapee las debilidades de 
+
+habilidad
+
+
+Reactivo
+{
+  "debilidades": {
+    "lectura": 0.4,
+    "escritura": 0.6,
+    "memoria": 0.5
+  },
+  "reactivos": [
+    {
+      "id_reactivo": 1,
+      "lectura": 0.2,
+      "escritura": 0.3,
+      "memoria": 0.5
+    }, 
+    {
+      "id_reactivo": 2,
+      "lectura": 0.3,
+      "escritura": 0.4,
+      "memoria": 0.3
+    },
+    {
+            "id_reactivo": 1,
+      "lectura": 0.2,
+      "escritura": 0.3,
+      "memoria": 0.5
+    }
+  ]
+}

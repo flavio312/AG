@@ -1,0 +1,63 @@
+# Dependencias principales del sistema de recomendación
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+numpy==1.24.3
+python-multipart==0.0.6
+
+# Dependencias para el algoritmo genético mejorado
+scipy==1.11.4
+
+# Dependencias para CORS y middleware
+python-jose[cryptography]==3.3.0
+
+# Dependencias para logging y monitoreo
+python-json-logger==2.0.7
+psutil==5.9.6
+
+# Dependencias para pruebas y desarrollo
+requests==2.31.0
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Dependencias para visualización (opcional, para análisis)
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Dependencias para cache (opcional)
+redis==5.0.1
+
+# Dependencias para manejo de datos
+pandas==2.1.4
+
+# Dependencias para validación adicional
+email-validator==2.1.0
+
+# Dependencias para documentación mejorada
+python-markdown==3.5.1
+
+# Dependencias para deployment
+gunicorn==21.2.0
+
+# Dependencias de seguridad
+python-dotenv==1.0.0
+cryptography==41.0.8
+
+# Dependencias para testing avanzado
+locust==2.17.0  # Para pruebas de carga
+aiohttp==3.9.1  # Para cliente asíncrono en pruebas
+
+# Dependencias para análisis de datos (opcional)
+scikit-learn==1.3.2  # Para métricas adicionales
+plotly==5.17.0  # Para gráficos interactivos
+
+# Dependencias para base de datos (opcional para futuras versiones)
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# Dependencias para manejo de archivos
+python-magic==0.4.27
+
+# Dependencias para timezone
+pytz==2023.3
